@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+#menu{
+    height: 22vh;
+    width: 100%;
+    background-color: chartreuse;
+}
+#logo{
+    height: 18vh;
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 1.7%;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 15%;
+}
+#butao{
+    margin-left: 80%;
+    margin-top: -35px;
+}
+#butao2{
+    margin-left: 80%;
+    margin-top: -35px;
+    height: 5vh;
+    width: 33%;
+}
+#core{
+    font-family: sans-serif;
+    margin-left: 3%;
+}
+#video{
+    text-align: center;
+}
+footer{
+    height: 22vh;
+    width: 100%;
+    background-color: chartreuse;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+#grande{
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+#pezario{
+    margin-left: 3%;
+    text-align: center;
+}
+#hq1, #hq2, #hq3, #hq4, #hq5, #hq6, #hq7, #hq8{
+    height: 22vh;
+    width: 22%;
+}
+#fileira1{
+    margin-top: 3%; 
+    text-align: center;
+}
+#fileira2{
+    text-align: center;
+}
+@media (max-width: 760px){
+    body{
+        margin: 0;
+    }
+    #logo{
+        height: 18vh;
+        width: 1000px;
+    }
+}
